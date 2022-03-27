@@ -1,15 +1,12 @@
 #include <list>
 #include <iostream>
 
-
+// version 2 to upload 
 
 List* initList(void)
 {
     List* myList = (List*)malloc(sizeof(*myList));
-    if(NULL == myList)
-  {
-    return NULL:
-  }
+ 
 return mylist;
 }
 
@@ -26,7 +23,7 @@ void  daneUczniow(List* myList, char* daneosob)
 }
 int main() {
 
-    std::cout << "Hello from Jerzy ";
+    std::cout << "Hello from Jerzy 2 time";
 
   return 0;
 }
