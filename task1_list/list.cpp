@@ -1,6 +1,7 @@
-#include "pch.h"
+#include "pch.h"  
 #include "list.h"
-
+#include <iostream>
+ 
 
 
 List* initList(void)
@@ -29,7 +30,15 @@ void printAll(List* pRoot) {
 
 }
 
+
+
+
 int numberOfElements(List* pRoot)
 {
 	return 0;
+}
+
+int main() {
+    std::cout << "Hello from Jurek! My first issue";
+    return 0;
 }
